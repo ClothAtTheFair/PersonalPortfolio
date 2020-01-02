@@ -5,7 +5,7 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <h2 className = "landingTitle">Hello, I'm Bradley</h2>
+                <h1 className = "landingTitle">Hello, I'm Bradley</h1>
                 <p className = "description">I have a degree in Mechanical Engineering on a journey to become a software engineer</p>
               
                 <MDBBtn href="https://twitter.com/BradleyFairclo2"size="lg" floating social="tw" >
