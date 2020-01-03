@@ -22,6 +22,11 @@ class Home extends Component {
                 <MDBBtn emailto="bradleycodes@gmail.com" size="lg" tag="a" floating social="email">
                     <MDBIcon icon = "envelope" />
                 </MDBBtn>
+
+                <MDBBtn href="Faircloth_Bradley_Resume3.pdf" size="lg" tag="a" floating social="file-pdf" target = "_blank">
+                    <MDBIcon icon = "file-pdf" />
+                </MDBBtn>
+                
                 
             
             </div>
