@@ -6,23 +6,26 @@ import {
 } from "react-router-dom";
 import Home from "./Home";
 import Projects from "./Projects";
-import Contact from "./Dprojects";
+import Contact from "./Contact";
+import Dprojects from "./Dprojects"
 
 class Main extends Component {
     render() {
         return (
             <HashRouter>
             <div>
-                <h1>Iteration 0</h1>
+                <h1>Iteration 1</h1>
                 <ul className = "header">
                     <li><NavLink exact to="/">Home</NavLink></li>
                     <li><NavLink to="/projects">Projects</NavLink></li>
-                    <li><NavLink to="/Dprojects">Contact</NavLink></li>
+                    <li><NavLink to="/contact">Contact</NavLink></li>
+                    <li><NavLink to="/comingsoon">Coming Soon</NavLink></li>
                 </ul>
                 <div className="content">
                     <Route exact path="/" component = {Home} />
                     <Route path="/projects" component = {Projects} />
-                    <Route path="/Dprojects" component = {Contact} />
+                    <Route path="/contact" component = {Contact} />
+                    <Route path="/comingsoon" component = {Dprojects} />
                 </div>
             </div>
             </HashRouter>
