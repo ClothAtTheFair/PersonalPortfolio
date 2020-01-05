@@ -9,3 +9,13 @@ import Projects from '../Projects'
 * If a load more button is added then it needs to be tested as well.
 *
 */
+
+test('shows project cards and can be clicked', () =>{
+    
+    const {queryByText, getByLabelText, getByText} = render (<Projects />)
+
+    // look for development website by label of card
+    expect(getByLabelText(/devwebsitecard/i)).toBeInTheDocument()
+    
+})
+
