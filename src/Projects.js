@@ -9,10 +9,31 @@ import Typography from '@material-ui/core/Typography';
 
 
 
-class Projects extends Component {    
+class Projects extends Component {  
+    constructor(props){
+        super(props) 
+            this.state = {
+                isDesktop: false
+            };
+            this.updatePredicate = this.updatePredicate.bind(this);
+        }
+        componentDidMount(){
+            this.updatePredicate();
+            window.addEventListener("resize", this.updatePredicate);
+        }
+
+        componentWillUnmount(){
+            window.removeEventListener("resize", this.updatePredicate);
+        }
+
+        updatePredicate(){
+            this.setState({ isDesktop: window.innerWidth > 900});
+        }
+      
     render() {
+        const isDesktop = this.state.isDesktop;
         return (
-            
+          
             <div>
                 <h2>Projects I'm working on</h2>
                
@@ -27,9 +48,16 @@ class Projects extends Component {
                         </div>
                    </div>
                </div>
+                <div>
+                {isDesktop ? (
+                    <div> true </div>
+                ) : (
+                    <div> false </div>
+                )}
+                </div>
             </div>
         );
-    }
+    }    
 }
 
 
