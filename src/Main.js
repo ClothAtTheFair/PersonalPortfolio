@@ -8,7 +8,6 @@ import Home from "./Home";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import Dprojects from "./Dprojects";
-import Better from "./Better";
 
 class Main extends Component {
     render() {
@@ -19,14 +18,12 @@ class Main extends Component {
                 <ul className = "header">
                     <li><NavLink exact to="/">Home</NavLink></li>
                     <li><NavLink to="/projects">Projects</NavLink></li>
-                    <li><NavLink to="/better">Better?</NavLink></li>
                     <li><NavLink to="/contact">Contact</NavLink></li>
                     <li><NavLink to="/comingsoon">Coming Soon</NavLink></li>
                 </ul>
                 <div className="content">
                     <Route exact path="/" component = {Home} />
-                    <Route path="/projects" component = {Projects} />
-                    <Route path = "/better" component = {Better} />
+                    <Route path="/projects" component = {Projects} />                   
                     <Route path="/contact" component = {Contact} />
                     <Route path="/comingsoon" component = {Dprojects} />
                 </div>

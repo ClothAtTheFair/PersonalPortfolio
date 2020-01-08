@@ -10,14 +10,19 @@ import Projects from '../Projects'
 *
 */
 
-test('shows project cards and can be clicked', () =>{
-    
-    const {queryByText, getByLabelText, getByText} = render (<Projects />)
+test('user can see projects and expand them', async () => {
 
-    // look for development website by label of card
-    expect(getByLabelText(/devwebsitecard/i)).toBeInTheDocument()
+   
 
-    
-    
+
+    const {getByLabelText, getByText, findByRole} = render(<Projects />)
+
+    expect(getByLabelText(/devwebsite/i)).toBeInTheDocument()
+    expect(getByLabelText(/visioncam/i)).toBeInTheDocument()
+    expect(getByLabelText(/clojurescheduler/i)).toBeInTheDocument()
+
+    //fill out form
+    //fireEvent.change(getByLabelText(/name/i), {target: {value: 'Bradley'}})
+
+
 })
-

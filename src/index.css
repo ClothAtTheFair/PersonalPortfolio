@@ -64,3 +64,23 @@ ul.header li {
     color: white;
     transform: rotateY(180deg);
 }
+
+.information{
+    width: 260px;
+    height: 350px;
+    background-color: white;
+    padding: 10%;
+}
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    padding: 1em;
+    background-color: lightgray;
+}
+
+.grid-item {
+    padding: 2em;
+    text-align: center;
+    align-items: center;
+}

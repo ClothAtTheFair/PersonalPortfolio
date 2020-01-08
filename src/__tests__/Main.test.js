@@ -22,18 +22,18 @@ test('full app rendering/navigating', () => {
     fireEvent.click(getByText(/projects/i))
 
     //Check that the content changed to the project page title
-    expect(container.innerHTML).toMatch("Projects I'm working on")
+    expect(container.innerHTML).toMatch("Projects I am working on")
 
    
 })
 
-test ('make sure better projects is there', () => {
+test ('make sure contact page is there', () => {
     const {container, getByText} = render(
             <Main />       
     )
 
-    fireEvent.click(getByText(/better/i))
+    fireEvent.click(getByText(/contact/i))
 
-    expect(container.innerHTML).toMatch("Maybe a better way to show projects")
+    expect(container.innerHTML).toMatch("Got Questions?")
 
 })

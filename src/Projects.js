@@ -33,32 +33,63 @@ class Projects extends Component {
     render() {
         const isDesktop = this.state.isDesktop;
         return (
-          
             <div>
-                <h2>Projects I'm working on</h2>
-               
-               <div className="devwebsite" aria-label="devwebsitecard">
-                   <div className="flip-card-inner" onClick={console.log("add a route to a new page later, I'm tired now")}>
-                       <div className="flip-card-front">
-                           <h1>Test</h1>
-                       </div>
-                        <div className="flip-card-back">
-                            <h2>Test1</h2>
-                            <p>ahhhh</p>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+            <h1>Projects I am working on</h1>    
+
+            <div className="grid-container">
+
+                <div className="grid-item" aria-label="devwebsite">
+                        <div className = "information">
+                           <img src = { require('./static/images/test.png')} alt = "website project" />
+                            <h4>ReactJS Developer Portfolio</h4>
+                            <p>Started at the beginning of 2020</p>
+                        </div>                        
+                </div>
+
+                <div className="grid-item" aria-label="visioncam">
+                        <div className = "information">
+                           <img src = { require('./static/images/test.png')} alt = "website project" />
+                            <h4>Object Detection Dashcam</h4>
+                            <p> Starting in Feb. 2020</p>
                         </div>
-                   </div>
-               </div>
-                <div>
+                </div>
+
+                <div className="grid-item" aria-label="clojurescheduler">
+                        <div className = "information">
+                           <img src = { require('./static/images/test.png')} alt = "website project" />
+                            <h4>Clojure Scheduler</h4>
+                            <p>coool</p>
+                        </div>                        
+                </div>
+
+                <div className="grid-item">
+                    <div className="devewebsite" aria-label="devewebsitecard">
+                        <div className = "information">
+                           <img src = { require('./static/images/test.png')} alt = "website project" />
+                            <h4>Test</h4>
+                            <p>coooooooooooooooooooooooool</p>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+
+            <div>
                 {isDesktop ? (
                     <div> true </div>
-                ) : (
+                        ) : (
                     <div> false </div>
-                )}
-                </div>
+                    )}
             </div>
+           
+        </div>
         );
     }    
 }
 
 
 export default Projects;
+
+
