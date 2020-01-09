@@ -21,8 +21,10 @@ test('user can see projects and expand them', async () => {
     expect(getByLabelText(/visioncam/i)).toBeInTheDocument()
     expect(getByLabelText(/clojurescheduler/i)).toBeInTheDocument()
 
-    //fill out form
-    //fireEvent.change(getByLabelText(/name/i), {target: {value: 'Bradley'}})
+    fireEvent.click(getByLabelText(/devwebsite/i))
+
+//    expect(getByText("Started at the beginning of 2020")).toBeVisible()
 
 
 })
+
