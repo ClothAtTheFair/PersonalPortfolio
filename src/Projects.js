@@ -1,37 +1,26 @@
 import React, { Component } from "react";
-import * as THREE from "three";
-import Card from '@material-ui/core/Card';
-import CardMedia from '@material-ui/core/CardMedia';
-import CardContent from '@material-ui/core/CardContent';
-import CardAction from '@material-ui/core/CardActions';
-import { makeStyles } from "@material-ui/core";
-import Typography from '@material-ui/core/Typography';
+import {Collapse, CardBody, Card} from 'reactstrap'
 
 
 
 class Projects extends Component {  
     constructor(props){
-        super(props) 
-            this.state = {
-                isDesktop: false
-            };
-            this.updatePredicate = this.updatePredicate.bind(this);
-        }
-        componentDidMount(){
-            this.updatePredicate();
-            window.addEventListener("resize", this.updatePredicate);
-        }
+        super(props);
+        this.state = {isToggleOn: false};
 
-        componentWillUnmount(){
-            window.removeEventListener("resize", this.updatePredicate);
-        }
+        //binding needed to make 'this' work in callback
+        this.handleClick = this.handleClick.bind(this);
+    }
 
-        updatePredicate(){
-            this.setState({ isDesktop: window.innerWidth > 900});
-        }
+    handleClick() {
+        this.setState(state => ({
+            isToggleOn: !state.isToggleOn
+        }));
+    }         
+    
       
     render() {
-        const isDesktop = this.state.isDesktop;
+        
         return (
             <div>
             <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
@@ -39,7 +28,8 @@ class Projects extends Component {
 
             <div className="grid-container">
 
-                <div className="grid-item" aria-label="devwebsite">
+                <div className="grid-item" aria-label="devwebsite" onClick={this.handleClick}>
+                        {this.state.isToggleOn ? 'ON': 'OFF'}
                         <div className = "information">
                            <img src = { require('./static/images/test.png')} alt = "website project" />
                             <h4>ReactJS Developer Portfolio</h4>
@@ -74,16 +64,7 @@ class Projects extends Component {
                 </div>
 
                 
-            </div>
-
-            <div>
-                {isDesktop ? (
-                    <div> true </div>
-                        ) : (
-                    <div> false </div>
-                    )}
-            </div>
-           
+            </div>          
         </div>
         );
     }    
