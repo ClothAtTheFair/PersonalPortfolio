@@ -15,6 +15,10 @@ ul.header li {
     padding-top: 5%;
 }
 
+.socialMedia {
+    padding: 2%;
+}
+
 .contactTitle {
     color: goldenrod;
     font-size: x-large;
@@ -49,4 +53,5 @@ ul.header li {
     text-align: center;
     align-items: center;
 }
+
 

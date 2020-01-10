@@ -37,7 +37,7 @@ class Projects extends Component {
                                 <h4>ReactJS Developer Portfolio</h4>
                             </Accordion.Toggle>
                             
-                            <Accordion.Collapse eventKey="0">
+                            <Accordion.Collapse eventKey="0" aria-label="devtext">
                                 <p>Started at the beginning of 2020, I set out to create a portfolio I would be proud of. <br/>
                                 I also wanted to learn a new framework so I chose React.JS with the idea of making it single page applicaton.<br/>
                                 While learning a new framework, I am learning to test the code with the React Test Library, Jest, and Enzyme. <br/>

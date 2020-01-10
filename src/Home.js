@@ -8,6 +8,7 @@ class Home extends Component {
                 <h1 className = "landingTitle">Hello, I'm Bradley</h1>
                 <p className = "description">I have a degree in Mechanical Engineering and I'm on a journey to become a software engineer</p>
               
+              <div className = "socialMedia" aria-label="socialButtons">
                 <MDBBtn href="https://twitter.com/BradleyFairclo2"size="lg" floating social="tw" >
                     <MDBIcon fab icon = "twitter" />                 
                 </MDBBtn>
@@ -32,7 +33,7 @@ class Home extends Component {
                     <MDBIcon icon = "file-pdf" />
                 </MDBBtn>
                  */}
-                
+                </div>
             
             </div>
         );
