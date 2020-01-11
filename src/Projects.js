@@ -70,9 +70,9 @@ class Projects extends Component {
                             </Accordion.Toggle>
                             
                             <Accordion.Collapse eventKey="0">
-                                <Card.Body>Starting in Feb. 2020, I hope to start this project <br/>
+                                <Card.Body>Project will be started closer to Feb. 2020, links will be provided then.<br/>
                                 The idea is to create an object Detection dashcam, with a 3D printed case that can record and save videos <br/>
-                                One goal of the project is to find out the distance from the car's bumper to objects such as cars and walls when parking. </Card.Body>                          
+                                One goal of the project is to find out the distance from the car's front bumper to objects such as cars and walls when parking. </Card.Body>                          
                             </Accordion.Collapse>
                         </div>                               
                     </Card>
@@ -87,8 +87,8 @@ class Projects extends Component {
                             </Accordion.Toggle>
                             
                             <Accordion.Collapse eventKey="0">
-                                <Card.Body>Starting in Feb. 2020, I hope to start this project <br/>
-                                Since December 2019 I have started slowly learning Clojure through coding websites and documentation but I didn't have anything <br/>
+                                <Card.Body>Project will be started mid Feb. 2020, links will be provided then.<br/>
+                                Since December 2019 I have started slowly learning Clojure through coding websites, books, and documentation but I didn't have anything <br/>
                                 at work I could use the language on. After listening to a talk by the creator Rich Hickey, I decided I would create my own scheduler in clojure. <br/>
                                 The scheduler should be able to help me schedule appointments as well as remind me of appointments or tasks I tell it about. <br/>
                                 Integration with Google calendars is the goal. </Card.Body>                          
@@ -106,7 +106,8 @@ class Projects extends Component {
                             </Accordion.Toggle>
                             
                             <Accordion.Collapse eventKey="0">
-                                <Card.Body>Starting in March 2020, I hope to do this thing </Card.Body>                          
+                                <Card.Body>Project will be started mid March 2020, links will be provided then.<br />
+                                 </Card.Body>                          
                             </Accordion.Collapse>
                         </div>                               
                     </Card>
