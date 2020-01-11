@@ -39,7 +39,6 @@ ul.header li {
     grid-template-columns: auto auto auto;
     padding: 1em;
     grid-template-rows: auto;
-    background-color: lightgray;
 }
 
 .grid-item {

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Accordion from 'react-bootstrap/Accordion';
 import Card from 'react-bootstrap/Card';
+import { MDBIcon, MDBBtn } from 'mdbreact';
 
 
 
@@ -38,12 +39,23 @@ class Projects extends Component {
                             </Accordion.Toggle>
                             
                             <Accordion.Collapse eventKey="0" aria-label="devtext">
-                                <p>Started at the beginning of 2020, I set out to create a portfolio I would be proud of. <br/>
+                                <Card.Body>Started at the beginning of 2020, I set out to create a portfolio I would be proud of. <br/>
                                 I also wanted to learn a new framework so I chose React.JS with the idea of making it single page applicaton.<br/>
                                 While learning a new framework, I am learning to test the code with the React Test Library, Jest, and Enzyme. <br/>
                                 The project will hopefully showcase my talents as a new Full-Stack developer as well as my williness to learn UI/UX design. <br/>
-                                The project will be documented on <a href="https://amazing-babbage-a08cab.netlify.com/">my blog</a> which is a gatsby framework <br/>
-                                and on my youtube channel (when that is created).</p>                          
+                                The project will be documented on my blog which is a gatsby framework,<br/>
+                                on my youtube channel (when that is created), and hosted on my github. All of these are linked below. <br />
+
+                                <MDBBtn href="https://amazing-babbage-a08cab.netlify.com/" target="_blank" size="lg">
+                                    <MDBIcon fas icon="blog" />
+                                </MDBBtn>
+                                <MDBBtn href="https://github.com/ClothAtTheFair/PersonalPortfolio" target="_blank" size="lg" floating social="git">
+                                    <MDBIcon fab icon="github"/>
+                                </MDBBtn>   
+                                <MDBBtn href="#" size="lg" floating social="yt">
+                                    <MDBIcon fab icon="youtube" />
+                                </MDBBtn>
+                                </Card.Body>                                                
                             </Accordion.Collapse>
                         </div>                               
                     </Card>
@@ -101,14 +113,14 @@ class Projects extends Component {
                 </Accordion>  
                
 
-                <div className="grid-item" onClick = {this.handleClick}>
+                {/* <div className="grid-item" onClick = {this.handleClick}>
                     {this.state.isToggleOn ? 'ON': 'OFF'}
                         <div className = "information">
                            <img src = { require('./static/images/test.png')} alt = "website project" />
                             <h4>Object Detection Dashcam</h4>
                             <p> Starting in Feb. 2020</p>
                         </div>
-                </div>
+                </div> */}
 
             </div>          
         </div>
