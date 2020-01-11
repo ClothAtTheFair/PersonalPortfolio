@@ -19,13 +19,13 @@ class Main extends Component {
                     <li><NavLink exact to="/">Home</NavLink></li>
                     <li><NavLink to="/projects">Projects</NavLink></li>
                     <li><NavLink to="/contact">Contact</NavLink></li>
-                    <li><NavLink to="/comingsoon">Coming Soon</NavLink></li>
+                    {/* <li><NavLink to="/comingsoon">Coming Soon</NavLink></li> */}
                 </ul>
                 <div className="content">
                     <Route exact path="/" component = {Home} />
                     <Route path="/projects" component = {Projects} />                   
                     <Route path="/contact" component = {Contact} />
-                    <Route path="/comingsoon" component = {Dprojects} />
+                    {/* <Route path="/comingsoon" component = {Dprojects} /> */}
                 </div>
             </div>
             </HashRouter>
