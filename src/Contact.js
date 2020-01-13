@@ -35,8 +35,7 @@ class Contact extends Component {
     render() {
         return (
             <div>
-                <h2 className="contactTitle">Got Questions?</h2>
-                <p>yeah, me too</p>
+                <h2 className="contactTitle">Let's Chat!</h2>
                 <div className="col-sm-4 offset-sm-4">
                 <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method = "POST">
                     <div className = "form-group">

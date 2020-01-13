@@ -34,6 +34,6 @@ test ('make sure contact page is there', () => {
 
     fireEvent.click(getByText(/contact/i))
 
-    expect(container.innerHTML).toMatch("Got Questions?")
+    expect(container.innerHTML).toMatch("Let's Chat!")
 
 })

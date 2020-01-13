@@ -17,7 +17,7 @@ test('user can see projects and expand them', async () => {
     const cssFile = fs.readFileSync(path.resolve(__dirname, '../index.css'), 'utf8'
     )
 
-    const {container, getByLabelText, getByText, findByRole} = render(<Projects />)
+    const {container, getByLabelText, getByText} = render(<Projects />)
 
     const style = document.createElement('style')
     style.type = 'text/css'
@@ -34,11 +34,11 @@ test('user can see projects and expand them', async () => {
 })
 
 
-test('user can see more than just 1 project present', async () => {
+test('user can see more than just 1 project present', () => {
 
-    const {container, getByLabelText, getByText, findByRole} = render(<Projects />)
+    const {getByLabelText} = render(<Projects />)
 
-    expect(getByLabelText(/visioncam/i)).toBeInTheDocument()
+    expect(getByLabelText(/devwebsite/i)).toBeInTheDocument()
     expect(getByLabelText(/clojurescheduler/i)).toBeInTheDocument()
 
 })
