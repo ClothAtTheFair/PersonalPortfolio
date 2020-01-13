@@ -20,3 +20,15 @@ test('user can see social media buttons', () => {
     expect(getByLabelText(/socialButtons/i)).toBeInTheDocument()
 
 })
+
+//Need a way to test this
+test('user can interact with the terminal easter egg', () => {
+
+    const {container, getByLabelText, getByText} = render( <Home />)
+
+    //expect(getByLabelText(/terminal/i)).not.toBeInTheDocument()
+    expect(getByLabelText(/pagerbutton/i)).toBeInTheDocument()
+    fireEvent.click(getByLabelText(/pagerbutton/i))
+
+   // expect(getByLabelText(/terminal/i)).toBeInTheDocument()
+})

@@ -19,6 +19,10 @@ ul.header li {
     padding: 2%;
 }
 
+.pager {
+    text-align: right;
+}
+
 .contactTitle {
     color: goldenrod;
     font-size: x-large;

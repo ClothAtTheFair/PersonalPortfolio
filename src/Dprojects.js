@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import * as THREE from "three";
-import {OrbitControls } from "three-js";
+//import {OrbitControls } from "three-js";
 
 const style = {
     height: 500
@@ -32,11 +32,11 @@ class Dprojects extends Component {
                 0.1, //near plane
                 1000 //far plane
                 );
-            this.camera.position = 9;
-            this.controls = new OrbitControls(this.camera, this.mount);
+            camera.position.z = 9;
+            //this.controls = new OrbitControls(this.camera, this.mount);
             this.renderer = new THREE.WebGLRenderer();
             this.renderer.setSize(width, height);
-            this.mount.appendChild(this.renderer.domElement);
+            //this.mount.appendChild(this.renderer.domElement);
 
         };
 
