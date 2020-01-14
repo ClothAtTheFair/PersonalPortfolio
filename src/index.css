@@ -1,11 +1,11 @@
-ul.header li {
-    display: inline;
-    list-style: none;
-    margin: 2em;
+.ahh {
+    padding-right: 2em;
+    padding-left: 12px;
+
 }
 
 .active{
-    background-color: #0099FF;
+    background-color: lightgray;
 }
 
 .landingTitle {

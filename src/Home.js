@@ -44,7 +44,7 @@ class Home extends Component {
         return (
             <div>
                 <h1 className = "landingTitle">Hello, I'm Bradley</h1>
-                <p className = "description">I have a degree in Mechanical Engineering and I'm on a journey to become a software engineer</p>
+                <p className = "description">I have a degree in Mechanical Engineering and I'm on a journey to become a great software engineer</p>
               
               <div className = "socialMedia" aria-label="socialButtons">
                   <MDBTooltip placement="top">

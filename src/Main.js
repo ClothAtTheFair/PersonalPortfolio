@@ -8,6 +8,7 @@ import Home from "./Home";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import Dprojects from "./Dprojects";
+import { Nav } from "react-bootstrap";
 
 class Main extends Component {
     render() {
@@ -15,17 +16,23 @@ class Main extends Component {
             <HashRouter>
             <div>
                 <h1>Iteration 1</h1>
-                <ul className = "header">
-                    <li><NavLink exact to="/">Home</NavLink></li>
-                    <li><NavLink to="/projects">Projects</NavLink></li>
-                    <li><NavLink to="/contact">Contact</NavLink></li>
-                    <li><NavLink to="/comingsoon">Coming Soon</NavLink></li>
-                </ul>
+                <Nav variant="pills">
+                    <Nav.Item className = "ahh">
+                        <NavLink exact to="/">Home</NavLink>
+                    </Nav.Item>
+                    <Nav.Item className = "ahh">
+                    <NavLink to="/projects">Projects</NavLink>
+                    </Nav.Item>
+                    <Nav.Item className = "ahh">
+                    <NavLink to="/contact">Contact</NavLink>
+                    </Nav.Item>
+                    {/* <li><NavLink to="/comingsoon">Coming Soon</NavLink></li> */}
+                </Nav>
                 <div className="content">
                     <Route exact path="/" component = {Home} />
                     <Route path="/projects" component = {Projects} />                   
                     <Route path="/contact" component = {Contact} />
-                    <Route path="/comingsoon" component = {Dprojects} />
+                    {/* <Route path="/comingsoon" component = {Dprojects} /> */}
                 </div>
             </div>
             </HashRouter>

@@ -12,7 +12,7 @@ import path from 'path'
 *
 */
 
-test('user can see projects and expand them', async () => {
+test('user can see projects and expand them', () => {
 
     const cssFile = fs.readFileSync(path.resolve(__dirname, '../index.css'), 'utf8'
     )
@@ -38,8 +38,8 @@ test('user can see more than just 1 project present', () => {
 
     const {getByLabelText} = render(<Projects />)
 
-    expect(getByLabelText(/devwebsite/i)).toBeInTheDocument()
-    expect(getByLabelText(/clojurescheduler/i)).toBeInTheDocument()
+    expect(getByLabelText(/visioncam/i)).toBeInTheDocument()
+    //expect(getByLabelText(/clojurescheduler/i)).toBeInTheDocument()
 
 })
 
