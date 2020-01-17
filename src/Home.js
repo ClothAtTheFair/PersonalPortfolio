@@ -27,7 +27,8 @@ class Home extends Component {
 
     handleClick() {
         this.setState(state => ({
-            pagerClicked: !state.pagerClicked
+            pagerClicked: !state.pagerClicked,
+            ReactTerminal: new ReactTerminal
         }));
     }
 
@@ -38,11 +39,11 @@ class Home extends Component {
             whoami: "Zero Cool",
             help: "This is a small easter egg based on the movie hackers. whoami gives your hacker name and typing hack gives a movie quote",
             hack: this.newQoutes(),
-            ahh: "Yikes Forever"
+            ahh: "Yikes Forever",
         }
     
         return (
-            <div>
+            <div className="grid-container-1">
                 <h1 className = "landingTitle">Hello, I'm Bradley</h1>
                 <p className = "description">I have a degree in Mechanical Engineering and I'm on a journey to become a great software engineer</p>
               
@@ -74,13 +75,13 @@ class Home extends Component {
                 </MDBBtn>
                 <div>blog</div>
                 </MDBTooltip>
-              
+{/*               
                 <MDBTooltip placement="top">
                 <MDBBtn href="#" size="lg" floating social="yt">
                     <MDBIcon fab icon="youtube" />
                 </MDBBtn>
                 <div>YouTube</div>
-                </MDBTooltip>
+                </MDBTooltip> */}
 
                {/*  <MDBBtn href="Faircloth_Bradley_Resume3.pdf" size="lg" tag="a" floating social="file-pdf" target = "_blank">
                     <MDBIcon icon = "file-pdf" />
