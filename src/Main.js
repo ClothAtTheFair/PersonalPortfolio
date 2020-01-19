@@ -15,7 +15,6 @@ class Main extends Component {
         return (
             <HashRouter>
             <div className = "background">
-                <h1>Iteration 2</h1>
                 <Nav variant="pills" className="NavBar">
                     <Nav.Item className = "ahh">
                         <NavLink exact to="/">Home</NavLink>

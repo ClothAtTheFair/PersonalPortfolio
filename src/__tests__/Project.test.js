@@ -34,14 +34,14 @@ test('user can see projects and expand them', () => {
 })
 
 
-test('user can see more than just 1 project present', () => {
+// test('user can see more than just 1 project present', () => {
 
-    const {getByLabelText} = render(<Projects />)
+//     const {getByLabelText} = render(<Projects />)
 
-    expect(getByLabelText(/visioncam/i)).toBeInTheDocument()
-    //expect(getByLabelText(/clojurescheduler/i)).toBeInTheDocument()
+//     expect(getByLabelText(/visioncam/i)).toBeInTheDocument()
+//     expect(getByLabelText(/clojurescheduler/i)).toBeInTheDocument()
 
-})
+// })
 
 
 
