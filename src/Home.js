@@ -49,31 +49,31 @@ class Home extends Component {
               
               <div className = "socialMedia" aria-label="socialButtons">
                   <MDBTooltip placement="top">
-                <MDBBtn href="https://twitter.com/BradleyFairclo2" target="_blank" size="lg" floating social="tw" >
+                <MDBBtn className="socialButton" href="https://twitter.com/BradleyFairclo2" target="_blank" size="lg" floating social="tw" >
                     <MDBIcon fab icon = "twitter" />                 
                 </MDBBtn>
                 <div>Twitter</div>
                 </MDBTooltip>
 
                 <MDBTooltip placement="top">
-                <MDBBtn href="https://github.com/ClothAtTheFair" target="_blank" size="lg" floating social="git">
+                <MDBBtn className="socialButton" href="https://github.com/ClothAtTheFair" target="_blank" size="lg" floating social="git">
                     <MDBIcon fab icon="github"/>
                 </MDBBtn>
                 <div>GitHub</div>
                 </MDBTooltip>
                 
                 <MDBTooltip placement="top">
-                <MDBBtn href="https://www.linkedin.com/in/bradley-faircloth-576a74a3/" target="_blank" size="lg" floating social="li">
+                <MDBBtn className="socialButton" href="https://www.linkedin.com/in/bradley-faircloth-576a74a3/" target="_blank" size="lg" floating social="li">
                     <MDBIcon fab icon="linkedin-in"/>
                 </MDBBtn>
                 <div>Linkedin</div>
                 </MDBTooltip>
 
                 <MDBTooltip placement="top">
-                <MDBBtn href="https://amazing-babbage-a08cab.netlify.com/" target="_blank" size="lg">
+                <MDBBtn className="socialButton" href="https://amazing-babbage-a08cab.netlify.com/" target="_blank" size="lg">
                     <MDBIcon fas icon="blog" />
                 </MDBBtn>
-                <div>terminal</div>
+                <div>blog</div>
                 </MDBTooltip>
 {/*               
                 <MDBTooltip placement="top">
@@ -98,7 +98,7 @@ class Home extends Component {
                     <MDBBtn size="sm" onClick ={this.handleClick}>
                         <MDBIcon icon="pager" />
                     </MDBBtn>
-                    <div>Pager</div>
+                    <div>Terminal</div>
                 </MDBTooltip>
                 </div>
             </div>

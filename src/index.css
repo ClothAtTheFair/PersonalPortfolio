@@ -43,9 +43,12 @@
 
 .socialMedia {
     grid-row-start: 3;
-    grid-column-start: 1;
-    padding: 2%;
-    display: block;
+    grid-row-end: span 1;
+}
+
+.socialButton {
+    grid-column-end: 1;
+    vertical-align: middle;
 }
 
 .pager {
