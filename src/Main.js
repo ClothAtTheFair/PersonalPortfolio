@@ -16,14 +16,14 @@ class Main extends Component {
             <HashRouter>
             <div className = "background">
                 <Nav variant="pills" className="NavBar">
-                    <Nav.Item className = "ahh">
-                        <NavLink exact to="/">Home</NavLink>
+                    <Nav.Item >
+                        <NavLink className = "ahh" exact to="/">Home</NavLink>
                     </Nav.Item>
-                    <Nav.Item className = "ahh">
-                    <NavLink to="/projects">Projects</NavLink>
+                    <Nav.Item >
+                    <NavLink className = "ahh" to="/projects">Projects</NavLink>
                     </Nav.Item>
-                    <Nav.Item className = "ahh">
-                    <NavLink to="/contact">Contact</NavLink>
+                    <Nav.Item>
+                    <NavLink className = "ahh" to="/contact">Contact</NavLink>
                     </Nav.Item>
                     {/* <li><NavLink to="/comingsoon">Coming Soon</NavLink></li> */}
                 </Nav>
