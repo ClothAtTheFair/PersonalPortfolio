@@ -26,7 +26,7 @@
 }
 
 .active{
-    background-color: black;
+    background-color: whitesmoke;
     border-radius: 5px;
 }
 
@@ -41,20 +41,74 @@
     padding-left: 20%;
 }
 
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
 .socialMedia {
-    grid-row-start: 3;
+    grid-row-start: 2;
     grid-row-end: span 1;
+    display: flex;
+    flex-direction: column;
 }
 
-.socialButton {
-    grid-column-end: 1;
-    vertical-align: middle;
+.socialMedia a i {
+    font-size: 30px;
+    padding-left: 1%;
+    margin: 10px;
 }
 
-.pager {
+.socialMedia a i.fa-twitter{
+    color: #00acee;
+      
+}
+
+.socialMedia a i.fa-twitter:hover {
+    animation: spin 5s;
+}
+
+.socialMedia a i.fa-github {
+    color:black;
+}
+
+.socialMedia a i.fa-github:hover {
+    color:white;
+    animation: spin 5s;
+}
+
+.socialMedia a i.fa-linkedin {
+    color: #0e76a8;
+}
+
+.socialMedia a i.fa-linkedin:hover {
+    animation: spin 5s;
+}
+
+.socialMedia a i.fa-scroll {
+    color:#b6ac9d;
+}
+
+.socialMedia a i.fa-scroll:hover {
+    animation: spin 5s;
+}
+
+.terminal {
     grid-row-start: 4;
     grid-column-start: 4;
     align-self: end;
+}
+
+.terminal a i.fa-terminal {
+    color:#0abab5;
 }
 
 .contactTitle {

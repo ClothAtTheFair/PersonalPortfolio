@@ -27,8 +27,8 @@ test('user can interact with the terminal easter egg', () => {
     const {container, getByLabelText, getByText} = render( <Home />)
 
     //expect(getByLabelText(/terminal/i)).not.toBeInTheDocument()
-    expect(getByLabelText(/pagerbutton/i)).toBeInTheDocument()
-    fireEvent.click(getByLabelText(/pagerbutton/i))
+    expect(getByLabelText(/terminalbutton/i)).toBeInTheDocument()
+    fireEvent.click(getByLabelText(/terminalbutton/i))
 
    // expect(getByLabelText(/terminal/i)).toBeInTheDocument()
 })

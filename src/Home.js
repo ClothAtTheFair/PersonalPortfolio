@@ -46,46 +46,15 @@ class Home extends Component {
             <div className="grid-container-1">
                 <h1 className = "landingTitle">Hello, I'm Bradley,</h1>
                 <p className = "description">I have a degree in Mechanical Engineering and I'm on a journey to become a great software engineer</p>
-              
-              <div className = "socialMedia" aria-label="socialButtons">
-                  <MDBTooltip placement="top">
-                <MDBBtn className="socialButton" href="https://twitter.com/BradleyFairclo2" target="_blank" size="lg" floating social="tw" >
-                    <MDBIcon fab icon = "twitter" />                 
-                </MDBBtn>
-                <div>Twitter</div>
-                </MDBTooltip>
-
-                <MDBTooltip placement="top">
-                <MDBBtn className="socialButton" href="https://github.com/ClothAtTheFair" target="_blank" size="lg" floating social="git">
-                    <MDBIcon fab icon="github"/>
-                </MDBBtn>
-                <div>GitHub</div>
-                </MDBTooltip>
-                
-                <MDBTooltip placement="top">
-                <MDBBtn className="socialButton" href="https://www.linkedin.com/in/bradley-faircloth-576a74a3/" target="_blank" size="lg" floating social="li">
-                    <MDBIcon fab icon="linkedin-in"/>
-                </MDBBtn>
-                <div>Linkedin</div>
-                </MDBTooltip>
-
-                <MDBTooltip placement="top">
-                <MDBBtn className="socialButton" href="https://amazing-babbage-a08cab.netlify.com/" target="_blank" size="lg">
-                    <MDBIcon fas icon="blog" />
-                </MDBBtn>
-                <div>blog</div>
-                </MDBTooltip>
-{/*               
-                <MDBTooltip placement="top">
-                <MDBBtn href="#" size="lg" floating social="yt">
-                    <MDBIcon fab icon="youtube" />
-                </MDBBtn>
-                <div>YouTube</div>
-                </MDBTooltip> */}
+                <div className ="socialMedia" aria-label="socialButtons">
+                <a href="https://twitter.com/BradleyFairclo2"><i class="fab fa-twitter"></i></a>
+                <a href="https://github.com/ClothAtTheFair" target="_blank" ><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/bradley-faircloth-576a74a3/" target="_blank" ><i class="fab fa-linkedin"></i></a>
+                <a href="https://amazing-babbage-a08cab.netlify.com/" target="_blank"><i class="fas fa-scroll"></i></a>
+                </div>
 
          
-                </div>
-                <div className="pager" aria-label="pagerbutton" >
+                <div className="terminal" aria-label="terminalbutton">
                 {
                     this.state.pagerClicked?
                     <div  aria-label="terminal" >
@@ -94,12 +63,8 @@ class Home extends Component {
                     :
                     <div></div>
                 }
-                    <MDBTooltip placement="top">
-                    <MDBBtn size="sm" onClick ={this.handleClick}>
-                        <MDBIcon icon="pager" />
-                    </MDBBtn>
-                    <div>Terminal</div>
-                </MDBTooltip>
+                    <a onClick={this.handleClick}><i class="fas fa-terminal"></i></a>
+                   
                 </div>
             </div>
         );
