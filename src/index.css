@@ -129,6 +129,18 @@
     padding: 10%;
 }
 
+.projectCard a i {
+    font-size: 25px;
+    margin: 5px;
+}
+.projectCard a i.fa-github {
+    color:black;
+}
+
+.projectCard a i.fa-scroll {
+    color:#b6ac9d;
+}
+
 .grid-container {
     display: inline-grid;
     width: 100%;

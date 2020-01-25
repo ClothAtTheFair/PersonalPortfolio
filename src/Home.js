@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { MDBTooltip, MDBIcon, MDBBtn } from 'mdbreact';
 import { ReactTerminal } from "react-terminal";
 
 class Home extends Component { 
@@ -46,6 +45,7 @@ class Home extends Component {
             <div className="grid-container-1">
                 <h1 className = "landingTitle">Hello, I'm Bradley,</h1>
                 <p className = "description">I have a degree in Mechanical Engineering and I'm on a journey to become a great software engineer</p>
+
                 <div className ="socialMedia" aria-label="socialButtons">
                 <a href="https://twitter.com/BradleyFairclo2"><i class="fab fa-twitter"></i></a>
                 <a href="https://github.com/ClothAtTheFair" target="_blank" ><i class="fab fa-github"></i></a>

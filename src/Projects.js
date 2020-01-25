@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Accordion from 'react-bootstrap/Accordion';
 import Card from 'react-bootstrap/Card';
-import { MDBIcon, MDBBtn } from 'mdbreact';
 
 
 
@@ -45,16 +44,8 @@ class Projects extends Component {
                                 The project will hopefully showcase my talents as a new Full-Stack developer as well as my williness to learn UI/UX design. <br/>
                                 The project will be documented on my blog which is a gatsby framework,<br/>
                                 on my youtube channel (when that is created), and hosted on my github. All of these are linked below. <br />
-
-                                <MDBBtn href="https://amazing-babbage-a08cab.netlify.com/" target="_blank" size="lg">
-                                    <MDBIcon fas icon="blog" />
-                                </MDBBtn>
-                                <MDBBtn href="https://github.com/ClothAtTheFair/PersonalPortfolio" target="_blank" size="lg" floating social="git">
-                                    <MDBIcon fab icon="github"/>
-                                </MDBBtn>   
-                                <MDBBtn href="#" size="lg" floating social="yt">
-                                    <MDBIcon fab icon="youtube" />
-                                </MDBBtn>
+                                <a href="https://github.com/ClothAtTheFair/PersonalPortfolio" target="_blank" ><i class="fab fa-github"></i></a>
+                                <a href="https://amazing-babbage-a08cab.netlify.com/" target="_blank"><i class="fas fa-scroll"></i></a>
                                 </Card.Body>                                                
                             </Accordion.Collapse>
                         </div>                               
