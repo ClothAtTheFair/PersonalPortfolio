@@ -150,10 +150,10 @@
 
 @supports(-webkit-overflow-scrolling: touch) {
     .grid-container{
-        display: grid;
+        display: flex;
         flex-wrap: wrap;
         height: 100%;
-       
+        flex-direction: row;       
     }
 }
 
