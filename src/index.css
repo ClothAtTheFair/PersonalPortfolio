@@ -156,9 +156,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minimax(240px, 360px));
     grid-gap: 0.5rem;
-    grid-auto-flow: row;
-    grid-template-rows: repeat(auto-fit, minimax(240px, 360px));
-
+ 
   
 }
 
@@ -172,6 +170,7 @@
     display: contents;
     text-align: center;
     align-items: center;
+    min-height: 240px;
 }
 
 
