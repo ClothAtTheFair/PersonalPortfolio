@@ -143,9 +143,18 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1;
+    grid-template-columns: repeat(auto-fit, minimax(240px, 360px));
     grid-gap: 0.5rem;
     grid-template-rows: max-content;  
+}
+
+@supports(-webkit-overflow-scrolling: touch) {
+    .grid-container{
+        display: grid;
+        flex-wrap: wrap;
+        height: 100%;
+       
+    }
 }
 
 .grid-item {
