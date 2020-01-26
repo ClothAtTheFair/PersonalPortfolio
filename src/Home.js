@@ -48,9 +48,9 @@ class Home extends Component {
 
                 <div className ="socialMedia" aria-label="socialButtons">
                 <a href="https://twitter.com/BradleyFairclo2"><i class="fab fa-twitter"></i></a>
-                <a href="https://github.com/ClothAtTheFair" target="_blank" ><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/bradley-faircloth-576a74a3/" target="_blank" ><i class="fab fa-linkedin"></i></a>
-                <a href="https://amazing-babbage-a08cab.netlify.com/" target="_blank"><i class="fas fa-scroll"></i></a>
+                <a href="https://github.com/ClothAtTheFair" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/bradley-faircloth-576a74a3/" target="_blank" rel="noopener noreferrer" ><i class="fab fa-linkedin"></i></a>
+                <a href="https://amazing-babbage-a08cab.netlify.com/" target="_blank" rel="noopener noreferrer"><i class="fas fa-scroll"></i></a>
                 </div>
 
          
