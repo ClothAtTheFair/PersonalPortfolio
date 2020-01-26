@@ -10,7 +10,7 @@ test('user can see header present', () => {
 
     const {container, getByLabelText, getByText} = render( <Home />)
 
-    expect(container.innerHTML).toMatch("Hello, I'm Bradley");
+    expect(container.innerHTML).toMatch("Hello, I'm Bradley,");
 })
 
 test('user can see social media buttons', () => {

@@ -15,8 +15,8 @@
 .background {
      /*white smoke */
      background-color: #4e4e4e; 
-     height: 100vh;
-     width: 100vw;
+     min-height: 100vh;    
+     min-width: 100vw;
 }
 .ahh {
     padding-right: 2em;
@@ -129,17 +129,6 @@
     padding: 10%;
 }
 
-.projectCard a i {
-    font-size: 25px;
-    margin: 5px;
-}
-.projectCard a i.fa-github {
-    color:black;
-}
-
-.projectCard a i.fa-scroll {
-    color:#b6ac9d;
-}
 
 @media screen and (min-width: 40em){
  .grid-container {
@@ -156,8 +145,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minimax(240px, 360px));
     grid-gap: 0.5rem;
- 
-  
+    grid-template-rows: max-content;  
 }
 
 .grid-item {
@@ -171,6 +159,18 @@
     text-align: center;
     align-items: center;
     min-height: 240px;
+}
+
+.projectCard a i {
+    font-size: 25px;
+    margin: 5px;
+}
+.projectCard a i.fa-github {
+    color:black;
+}
+
+.projectCard a i.fa-scroll {
+    color:#b6ac9d;
 }
 
 

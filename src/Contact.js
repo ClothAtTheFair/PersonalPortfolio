@@ -1,9 +1,6 @@
 import React, { Component } from "react";
-import axios from 'axios';
 import emailjs from 'emailjs-com';
 
-//Back end still needs to be implemented
-const API_PATH = '/send_form_email.php';
 
 class Contact extends Component {
     constructor(props){
@@ -70,13 +67,8 @@ class Contact extends Component {
                         <textarea className="form-control" rows="5" id="message" value={this.state.message} onChange={e => this.setState({message: e.target.value})}/>
                     </div>
 
-                    <input type="submit" className="btn btn-primary" value="Submit" />
+                    <input type="submit" className="btn btn-primary" value="Submit" aria-label="submit_button" />
 
-                    <div>
-                        { this.state.mailSent && 
-                        <div> Thank you for contacting me. </div>
-                        }
-                    </div>
                 </form>
                 </div>
             </div>
