@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Accordion from 'react-bootstrap/Accordion';
 import Card from 'react-bootstrap/Card';
+import {BrowserView, MobileView, isBrowser, isMobile} from "react-device-detect";
 
 
 
@@ -23,7 +24,9 @@ class Projects extends Component {
     render() {
         
         return (
+            
             <div>
+               
             <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
             <h1 className="projectsTitle">Projects I am working on</h1>    
 
@@ -44,8 +47,8 @@ class Projects extends Component {
                                 The project will hopefully showcase my talents as a new Full-Stack developer as well as my williness to learn UI/UX design. <br/>
                                 The project will be documented on my blog which is a gatsby framework,<br/>
                                 on my youtube channel (when that is created), and hosted on my github. All of these are linked below. <br />
-                                <a href="https://github.com/ClothAtTheFair/PersonalPortfolio" target="_blank" ><i class="fab fa-github"></i></a>
-                                <a href="https://amazing-babbage-a08cab.netlify.com/" target="_blank"><i class="fas fa-scroll"></i></a>
+                                <a href="https://github.com/ClothAtTheFair/PersonalPortfolio" target="_blank" ><i className="fab fa-github"></i></a>
+                                <a href="https://amazing-babbage-a08cab.netlify.com/" target="_blank"><i className="fas fa-scroll"></i></a>
                                 </Card.Body>                                                
                             </Accordion.Collapse>
                         </div>                               
@@ -114,8 +117,10 @@ class Projects extends Component {
                         </div>
                 </div> */}
 
-            </div>          
+            </div>     
         </div>
+        
+       
         );
     }    
 }
