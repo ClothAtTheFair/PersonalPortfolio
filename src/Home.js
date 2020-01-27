@@ -53,6 +53,8 @@ class Home extends Component {
                 <a href="https://amazing-babbage-a08cab.netlify.com/" target="_blank" rel="noopener noreferrer"><i className="fas fa-scroll"></i></a>
                 </div>
 
+                <img className="homeImage" src= { require('./static/images/IMG_0037.GIF')} alt= "animated computer" />
+
          
                 <div className="terminal" aria-label="terminalbutton">
                 {
