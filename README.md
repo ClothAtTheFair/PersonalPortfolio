@@ -1,3 +1,7 @@
+Project 1 of 6 in 2020: Personal Portfolio in React.
+TDD was done on critical components in this project and tested on each push by Travis CI.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

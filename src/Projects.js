@@ -46,9 +46,28 @@ class Projects extends Component {
                                 The project will hopefully showcase my talents as a new Full-Stack developer as well as my williness to learn UI/UX design. <br/>
                                 The project will be documented on my blog which is a gatsby framework,<br/>
                                 on my youtube channel (when that is created), and hosted on my github. All of these are linked below. <br />
-                                <a href="https://github.com/ClothAtTheFair/PersonalPortfolio" target="_blank" ><i className="fab fa-github"></i></a>
-                                <a href="https://amazing-babbage-a08cab.netlify.com/" target="_blank"><i className="fas fa-scroll"></i></a>
+                                <a href="https://github.com/ClothAtTheFair/PersonalPortfolio" target="_blank" rel="noopener noreferrer" ><i className="fab fa-github"></i></a>
+                                <a href="https://amazing-babbage-a08cab.netlify.com/" target="_blank" rel="noopener noreferrer"><i className="fas fa-scroll"></i></a>
                                 </Card.Body>                                                
+                            </Accordion.Collapse>
+                        </div>                               
+                    </Card>
+                </Accordion>  
+
+                <Accordion>  
+                    <Card  className = "yikes" aria-label="chatBots" >                      
+                        <div className="projectCard">                               
+                            <Accordion.Toggle eventKey="0">
+                                <img src = { require('./static/images/test.png')} alt = "chat bot project" />
+                                <h4>Array of Chatbots</h4>
+                            </Accordion.Toggle>
+                            
+                            <Accordion.Collapse eventKey="0">
+                                <Card.Body>This project is really multiple projects, all being chatbots. <br /> Brought about by a recommended Medium article, I set out to create a tutorial rule based chatbot in Python.<br />
+                                After creating the simple rule based chatbot, I realized I could extend this type of bot to finish a project I started in 2015 with a good friend that recently passed away. <br />
+                                The second bot was made, a Theta Tau pledge bot which when done would interview brothers inside of a GUI from pygame and store the information. <br />
+                                While waiting for friends at a Starbucks, a recommended YouTube video came on about a deep learning chatbot by Tech with Tim which brought about the third chatbot. This chatbot will be is used to help talk about myself and my website.
+                                 </Card.Body>                          
                             </Accordion.Collapse>
                         </div>                               
                     </Card>
