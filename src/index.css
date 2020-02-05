@@ -176,6 +176,10 @@
         height: 300px;
         flex-direction: row;       
     }
+
+    .imageCard{
+        height: 200px;
+    }
 }
 
 .grid-item {

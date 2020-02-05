@@ -37,7 +37,7 @@ class Projects extends Component {
                     <Card className = "yikes" aria-label="devwebsite" >                      
                         <div className="projectCard">                               
                             <Accordion.Toggle eventKey="0">
-                                <img src = { require('./static/images/webpage.png')} alt = "website project" />
+                                <img className="imageCard" src = { require('./static/images/webpage.png')} alt = "website project" />
                                 <h4>ReactJS Developer Portfolio</h4>
                             </Accordion.Toggle>
                             
