@@ -176,10 +176,6 @@
         height: 300px;
         flex-direction: row;       
     }
-
-    .projectCard {
-        height: 200px;
-    }
 }
 
 .grid-item {
