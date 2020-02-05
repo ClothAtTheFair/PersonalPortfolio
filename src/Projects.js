@@ -27,7 +27,9 @@ class Projects extends Component {
             
             <div>
             <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-            <h1 className="projectsTitle">Projects I am working on</h1>    
+            <h1 className="projectsTitle">Projects I am working on</h1> 
+            <h4 className="description">Between helping mentor a FRC programming team and working full time, I am working on these projects at night
+            and at the weekend to become a better software engineer.</h4>   
 
             <div className="grid-container">
               
@@ -66,7 +68,11 @@ class Projects extends Component {
                                 <Card.Body>This project is really multiple projects, all being chatbots. <br /> Brought about by a recommended Medium article, I set out to create a tutorial rule based chatbot in Python.<br />
                                 After creating the simple rule based chatbot, I realized I could extend this type of bot to finish a project I started in 2015 with a good friend that recently passed away. <br />
                                 The second bot was made, a Theta Tau pledge bot which when done would interview brothers inside of a GUI from pygame and store the information. <br />
-                                While waiting for friends at a Starbucks, a recommended YouTube video came on about a deep learning chatbot by Tech with Tim which brought about the third chatbot. This chatbot will be is used to help talk about myself and my website.
+                                While waiting for friends at a Starbucks, a recommended YouTube video came on about a deep learning chatbot by Tech with Tim which brought about the third chatbot. 
+                                This chatbot will be is used to help talk about myself and my website. <br />
+                                The first link is to the Theta Tau bot and the second link is the deep learning chat bot. <br />
+                                <a href="https://github.com/ClothAtTheFair/ThetaTau_PledgeBot" target="_blank" rel="noopener noreferrer" ><i className="fab fa-github"></i></a>
+                                <a href="https://github.com/ClothAtTheFair/DeepLearningBot" target="_blank" rel="noopener noreferrer" ><i className="fab fa-github"></i></a>
                                  </Card.Body>                          
                             </Accordion.Collapse>
                         </div>                               
