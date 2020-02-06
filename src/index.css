@@ -178,6 +178,7 @@
     }
 
     .imageCard{
+        padding: 200px;
         height: 200px;
     }
 }
