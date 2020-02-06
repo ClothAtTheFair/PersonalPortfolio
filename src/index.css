@@ -173,7 +173,7 @@
     .grid-container{
         display: contents;
         flex-wrap: wrap;
-        height: 300px !important;
+        height: 500px !important;
         flex-direction: row;       
     }
 
