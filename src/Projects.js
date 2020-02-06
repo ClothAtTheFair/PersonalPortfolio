@@ -30,7 +30,7 @@ class Projects extends Component {
             <h1 className="projectsTitle">Projects I am working on</h1> 
             <h4 className="description">Between helping mentor a FRC programming team and working full time, I am working on these projects at night
             and at the weekend to become a better software engineer.</h4>   
-
+            <BrowserView>
             <div className="grid-container">
               
                 <Accordion>  
@@ -141,7 +141,14 @@ class Projects extends Component {
                         </div>
                 </div> */}
 
-            </div>     
+            </div>   
+            </BrowserView>
+            <MobileView>
+            <Card>
+                <Card.Body>Test</Card.Body>
+            </Card>
+            
+            </MobileView>  
         </div>
         
        
