@@ -171,7 +171,7 @@
 
 @supports(-webkit-overflow-scrolling: touch) {
     .grid-container{
-        display: flex;
+        display: contents;
         flex-wrap: wrap;
         height: 300px;
         flex-direction: row;       
