@@ -175,7 +175,7 @@
         flex-wrap: wrap;
         height: 100% !important;
         flex-direction: row;   
-        padding: 200px;    
+        padding: 200px !important;    
     }
 
     .imageCard{
