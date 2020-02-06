@@ -169,6 +169,10 @@
     grid-template-rows: max-content;  
 }
 
+.apologise {
+    display: none;
+}
+
 @supports(-webkit-overflow-scrolling: touch) {
     .grid-container{
         display: contents;
@@ -178,6 +182,11 @@
     }
     .button {
         height: 300px !important;
+    }
+
+    .apologise{
+        display: contents;
+        color:#0abab5;
     }
 
 }

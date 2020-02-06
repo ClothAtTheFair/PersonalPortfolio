@@ -132,6 +132,7 @@ class Projects extends Component {
                         </Accordion>
 
 
+
                         {/* <div className="grid-item" onClick = {this.handleClick}>
                     {this.state.isToggleOn ? 'ON': 'OFF'}
                         <div className = "information">
@@ -142,6 +143,11 @@ class Projects extends Component {
                 </div> */}
 
                     </div>
+
+
+                    <h5 className="apologise">If you are seeing this I'm sorry for the inconvience. There is a bug in iOS with react bootstrap which isn't
+                            common. I am working to fix it very soon.
+                        </h5>
                 
             
             </div>
