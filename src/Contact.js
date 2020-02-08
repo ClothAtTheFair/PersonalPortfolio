@@ -67,7 +67,7 @@ class Contact extends Component {
                         <textarea className="form-control" rows="5" id="message" value={this.state.message} onChange={e => this.setState({message: e.target.value})}/>
                     </div>
 
-                    <input type="submit" className="btn btn-primary" value="Submit" aria-label="submit_button" />
+                    <input type="submit" className="btn btn-primary" id="conSubmit" value="Submit" aria-label="submit_button" />
 
                 </form>
                 </div>

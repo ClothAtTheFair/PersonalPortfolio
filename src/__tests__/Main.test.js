@@ -17,12 +17,12 @@ test('full app rendering/navigating', () => {
     )
 
     // verify page content for expected route
-    expect(container.innerHTML).toMatch("Hello, I'm Bradley")
+    expect(container.innerHTML).toMatch("Hello I'm Bradley,")
 
     fireEvent.click(getByText(/projects/i))
 
     //Check that the content changed to the project page title
-    expect(container.innerHTML).toMatch("Projects I am working on")
+    expect(container.innerHTML).toMatch("Portfolio")
 
    
 })

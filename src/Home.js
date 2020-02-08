@@ -43,7 +43,7 @@ class Home extends Component {
     
         return (
             <div className="grid-container-1">
-                <h1 className = "landingTitle">Hello, I'm Bradley,</h1>
+                <h1 className = "landingTitle">Hello I'm Bradley,</h1>
                 <p className = "description">I have a degree in Mechanical Engineering with a strong concentration
                 in Computer Science. I am on a journey to become a great software engineer
                 focused on user centered design.</p>
