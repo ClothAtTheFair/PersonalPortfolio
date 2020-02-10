@@ -30,7 +30,7 @@
     align-self: center;
     color:#EEEEF0 !important;
     font-family: monospace;
-    font-size: 22px;
+    font-size: 	1.36rem;
 
 }
 
@@ -76,7 +76,7 @@
 }
 
 .socialMedia a i {
-    font-size: 35px;
+    font-size: 2.2rem;
     padding-left: 1%;
     margin: 10px;
   
@@ -136,8 +136,8 @@
 }
 
 .information{
-    width: 260px;
-    height: 350px;
+    width: 16.25rem;
+    height: 21.875rem;
     background-color: ivory;
     padding: 10%;
     font-family: monospace;
