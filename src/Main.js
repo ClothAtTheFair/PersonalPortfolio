@@ -7,6 +7,7 @@ import {
 import Home from "./Home";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import BetterProject from "./Better";
 import Dprojects from "./Dprojects";
 import { Nav } from "react-bootstrap";
 
@@ -30,7 +31,7 @@ class Main extends Component {
                 <div className="content">
                     <Route exact path="/" component = {Home} />
                     <Route path="/projects" component = {Projects} />                   
-                    <Route path="/contact" component = {Contact} />
+                    <Route path="/contact" component = {Contact} />                    
                     {/* <Route path="/comingsoon" component = {Dprojects} /> */}
                 </div>
             </div>
