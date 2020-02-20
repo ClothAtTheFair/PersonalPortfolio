@@ -51,9 +51,10 @@ class Contact extends Component {
     render() {
         return (
             <div>
+
                 <h2 className="contactTitle">Let's Chat!</h2>
                 <div className="col-sm-4 offset-sm-4">
-                <form name="contactform" id="contact-form" onSubmit={this.handleSubmit}>
+                <form className="contactform" id="contact-form" onSubmit={this.handleSubmit}>
                     <div className = "form-group">
                         <label htmlFor="name">Name</label>
                         <input id="name" type="text" className="form-control"  value={this.state.name} onChange={e => this.setState({name: e.target.value})}/>

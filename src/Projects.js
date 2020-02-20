@@ -28,7 +28,7 @@ class Projects extends Component {
             <div>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
                 <h1 className="projectsTitle">Portfolio</h1>
-                <h4 className="description">Between helping mentor a FRC programming team and working full time, I am working on these projects at night
+                <h4 className="projectdescription">Between helping mentor a FRC programming team and working full time, I am working on these projects at night
             and at the weekend to become a better software engineer.</h4>
     
                     <div className="grid-container">

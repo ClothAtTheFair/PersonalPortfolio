@@ -9,9 +9,9 @@
 .NavBar
 {
     /*vampire black */
-    background-color:#575866;
+    background-color:#4e4f5b;
     color: #EEEEF0;
-    height: 10vh;
+    height: 8vh;
     font-size: 1.2rem;
     align-content: center;
 }
@@ -30,7 +30,7 @@
     align-self: center;
     color:#EEEEF0 !important;
     font-family: monospace;
-    font-size: 	1.36rem;
+    font-size: 	1.3rem;
 
 }
 
@@ -44,9 +44,8 @@
     font-size: xx-large;
     grid-row-start: 1;
     grid-column-start: 2;
-    grid-column-end: span 3;
+    grid-column-end: auto;
     align-self: center;
-    padding-left: 20%;
     font-family: monospace;
 }
 
@@ -120,26 +119,18 @@
     display: none;
 }
 
-
-.contactTitle {
-    color: #EEEEF0;
-    font-size: x-large;
-    text-align: center;
-    padding-top: 5%;
-    font-family: monospace;
-}
-
 .projectsTitle{
     color: #EEEEF0;
     font-family: monospace;
-    text-align: center;
+    text-align: left;
+    margin: 0.25em;
 }
 
 .information{
     width: 16.25rem;
     height: 21.875rem;
     background-color: ivory;
-    padding: 10%;
+    padding: 0%;
     font-family: monospace;
 }
 
@@ -216,6 +207,11 @@
     text-align: center;
     align-items: center;
     min-height: 240px;
+    font-family: monospace;
+    font-weight: 100;
+}
+.projectCard a {
+    font-family: monospace;
 }
 
 .projectCard a i {
@@ -244,19 +240,49 @@
     grid-column-start: 2;
     grid-column-end: span 2;
     grid-row-start: 2;
-    padding-left:5%;
     color:  #EEEEF0;
     font-family: monospace;
     font-size: 1.25em;
+    letter-spacing: 0.1em;
+}
+
+.projectdescription {
+    grid-column-start: 2;
+    grid-column-end: span 2;
+    grid-row-start: 2;
+    color:  #EEEEF0;
+    font-family: monospace;
+    font-size: 1.25em;
+    letter-spacing: 0.1em;
+    margin: 0.5em;
+}
+
+.contactTitle {
+    color: #EEEEF0;
+    font-size: 1.9em;
+    text-align: center;
+    padding-top: 3em;
+    font-family: monospace;
+    padding-right: 20%;
+}
+
+.contactform {
+    background: #666557;
+    padding: 1em;
 }
 
 .form-group label {
     color: #EEEEF0;
+    font-family: monospace;
+    font-size: 1.2em;
 }
 
 #conSubmit{
     background-color: #AA5561 !important;
     color: #EEEEF0;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1.25em;
 }
 /* 
 .wrapper {
