@@ -80,6 +80,45 @@ class Projects extends Component {
                         </Accordion>
 
                         <Accordion>
+                            <Card className="yikes" aria-label="Jarvis 2.0" >
+                                <div className="projectCard">
+                                    <Accordion.Toggle eventKey="0">
+                                        <img src={require('./static/images/test.png')} alt="jarvis project" />
+                                        <h4>Discord Chatbot</h4>
+                                    </Accordion.Toggle>
+
+                                    <Accordion.Collapse eventKey="0">
+                                        <Card.Body>After talking to one of the students I mentor about the chatbots I made previously and how fun they were, he mentioned some of the students
+                                            and alumni of the team had a discord and I could have access to add in bots. <br /> What ensued was a fun little chatbot which had no purpose other than
+                                            to entertain. The first bot asks like a self-checkout machine with items which were randomly pulled into lists. This code can be found on <a href="https://repl.it/@ClothAtTheFair/bagBoi" target="_blank"
+                                            rel="noopener noreferrer">repl.it here</a> <br />
+                                        </Card.Body>
+                                    </Accordion.Collapse>
+                                </div>
+                            </Card>
+                        </Accordion>
+
+                        <Accordion>
+                            <Card className="yikes" aria-label="Jarvis 2.0" >
+                                <div className="projectCard">
+                                    <Accordion.Toggle eventKey="0">
+                                        <img src={require('./static/images/test.png')} alt="jarvis project" />
+                                        <h4>Redux/Firebase ToDo Web Application</h4>
+                                    </Accordion.Toggle>
+
+                                    <Accordion.Collapse eventKey="0">
+                                        <Card.Body>Talking to a mentor of mine, it was brought up that if I wanted to learn a lot about ReactJS and use it well
+                                            learning how to use Redux would be the next step. At the same time I am really forgetful, which leads to some less than ideal
+                                            situations. <br /> So after searching the internet I found a way to start a ToDo application with Redux using Firebase as the 
+                                            database. Before being posted publically authorization needs to be added so only those authorized can add or remove tasks and not overload the database. <br />
+                                            <a href="https://github.com/ClothAtTheFair/Firebase_ToDo" target="_blank" rel="noopener noreferrer" ><i className="fab fa-github"></i></a>
+                                        </Card.Body>
+                                    </Accordion.Collapse>
+                                </div>
+                            </Card>
+                        </Accordion>
+
+                        <Accordion>
                             <Card className="yikes" aria-label="visioncam" >
                                 <div className="projectCard">
                                     <Accordion.Toggle eventKey="0">
@@ -88,28 +127,9 @@ class Projects extends Component {
                                     </Accordion.Toggle>
 
                                     <Accordion.Collapse eventKey="0">
-                                        <Card.Body>Project will be started closer to Feb. 2020, links will be provided then.<br />
+                                        <Card.Body>Project will be started mid March, links will be provided then.<br />
                                             The idea is to create an object Detection dashcam, with a 3D printed case that can record and save videos <br />
                                             One goal of the project is to find out the distance from the car's front bumper to objects such as cars and walls when parking. </Card.Body>
-                                    </Accordion.Collapse>
-                                </div>
-                            </Card>
-                        </Accordion>
-
-                        <Accordion>
-                            <Card className="yikes" aria-label="clojurescheduler" >
-                                <div className="projectCard">
-                                    <Accordion.Toggle eventKey="0">
-                                        <img src={require('./static/images/test.png')} alt="schedule project" />
-                                        <h4>Clojure Scheduler</h4>
-                                    </Accordion.Toggle>
-
-                                    <Accordion.Collapse eventKey="0">
-                                        <Card.Body>Project will be started mid Feb. 2020, links will be provided then.<br />
-                                            Since December 2019 I have started slowly learning Clojure through coding websites, books, and documentation but I didn't have anything <br />
-                                            at work I could use the language on. After listening to a talk by the creator Rich Hickey, I decided I would create my own scheduler in clojure. <br />
-                                            The scheduler should be able to help me schedule appointments as well as remind me of appointments or tasks I tell it about. <br />
-                                            Integration with Google calendars is the goal. </Card.Body>
                                     </Accordion.Collapse>
                                 </div>
                             </Card>
@@ -124,7 +144,7 @@ class Projects extends Component {
                                     </Accordion.Toggle>
 
                                     <Accordion.Collapse eventKey="0">
-                                        <Card.Body>Project will be started mid March 2020, links will be provided then.<br />
+                                        <Card.Body>Project will be started mid April 2020, links will be provided then.<br />
                                         </Card.Body>
                                     </Accordion.Collapse>
                                 </div>
