@@ -80,7 +80,7 @@ class Projects extends Component {
                         </Accordion>
 
                         <Accordion>
-                            <Card className="yikes" aria-label="Jarvis 2.0" >
+                            <Card className="yikes" aria-label="discord" >
                                 <div className="projectCard">
                                     <Accordion.Toggle eventKey="0">
                                         <img src={require('./static/images/test.png')} alt="jarvis project" />
@@ -99,10 +99,10 @@ class Projects extends Component {
                         </Accordion>
 
                         <Accordion>
-                            <Card className="yikes" aria-label="Jarvis 2.0" >
+                            <Card className="yikes" aria-label="firebaseTodo" >
                                 <div className="projectCard">
                                     <Accordion.Toggle eventKey="0">
-                                        <img src={require('./static/images/test.png')} alt="jarvis project" />
+                                        <img src={require('./static/images/todo_application.png')} alt="todo project" />
                                         <h4>Redux/Firebase ToDo Web Application</h4>
                                     </Accordion.Toggle>
 
@@ -112,6 +112,46 @@ class Projects extends Component {
                                             situations. <br /> So after searching the internet I found a way to start a ToDo application with Redux using Firebase as the 
                                             database. Before being posted publically authorization needs to be added so only those authorized can add or remove tasks and not overload the database. <br />
                                             <a href="https://github.com/ClothAtTheFair/Firebase_ToDo" target="_blank" rel="noopener noreferrer" ><i className="fab fa-github"></i></a>
+                                        </Card.Body>
+                                    </Accordion.Collapse>
+                                </div>
+                            </Card>
+                        </Accordion>
+
+                        <Accordion>
+                            <Card className="yikes" aria-label="firebaseVue" >
+                                <div className="projectCard">
+                                    <Accordion.Toggle eventKey="0">
+                                        <img src={require('./static/images/vuejs_logo.png')} alt="login page with vue and firebase" />
+                                        <h4>Firebase Authorization with Vue.js</h4>
+                                    </Accordion.Toggle>
+
+                                    <Accordion.Collapse eventKey="0">
+                                        <Card.Body> 
+                                            This project has given me the opportunity to learn both the differences between Vue.js and React.js but also the basics of firebase authorization. <br />
+                                            After doing the Firebase Todo web application, I noticed firebase has an option for authorization. The webpage can be found <a href="https://okayvue-44dbe.web.app/" target="_blank"
+                                            rel="noopener noreferrer">here</a> 
+                                             <br /> Researching, I found a tutorial on firebase authorization with Vue.js which would 
+                                            allow me learn about authorization and Vue.js at the same time.
+                                            <a href="https://github.com/ClothAtTheFair/VueLogin" target="_blank" rel="noopener noreferrer" ><i className="fab fa-github"></i></a>
+                                        </Card.Body>
+                                    </Accordion.Collapse>
+                                </div>
+                            </Card>
+                        </Accordion>
+
+                        <Accordion>
+                            <Card className="yikes" aria-label="codepens" >
+                                <div className="projectCard">
+                                    <Accordion.Toggle eventKey="0">
+                                        <img src={require('./static/images/codepen.png')} alt="UI designs" />
+                                        <h4>Various Codpens </h4>
+                                    </Accordion.Toggle>
+
+                                    <Accordion.Collapse eventKey="0">
+                                        <Card.Body>
+                                            Using codepen.io, I have explored different UI components in smaller scale for rapid testing and learning. These projects can be found <a href="https://codepen.io/clothatthefair" target="_blank"
+                                            rel="noopener noreferrer">here</a>
                                         </Card.Body>
                                     </Accordion.Collapse>
                                 </div>

@@ -169,7 +169,7 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minimax(240px, 360px));
+    grid-template-columns: auto auto auto;
     grid-gap: 0.5rem;
     grid-template-rows: max-content;  
 }
