@@ -132,7 +132,7 @@ class Projects extends Component {
                                             After doing the Firebase Todo web application, I noticed firebase has an option for authorization. The webpage can be found <a href="https://okayvue-44dbe.firebaseapp.com/" target="_blank"
                                             rel="noopener noreferrer">here</a> 
                                              <br /> Researching, I found a tutorial on firebase authorization with Vue.js which would 
-                                            allow me learn about authorization and Vue.js at the same time.
+                                            allow me learn about authorization and Vue.js at the same time. <br />
                                             <a href="https://github.com/ClothAtTheFair/VueLogin" target="_blank" rel="noopener noreferrer" ><i className="fab fa-github"></i></a>
                                         </Card.Body>
                                     </Accordion.Collapse>
