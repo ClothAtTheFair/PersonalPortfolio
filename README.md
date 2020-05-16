@@ -6,7 +6,7 @@ At the start of 2020, I challenged myself to create at least 6 different project
 
 # Tech Stack Used:
 
-ReactJS
+ReactJS<br />
 TravisCI
 
 # Live Website Link:
